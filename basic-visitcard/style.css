@@ -88,7 +88,8 @@ li a {
 /* Change the link color on hover */
 li a:hover {
   color: gray;
-  line-height: auto;
+  text-decoration: none;
+  
   
 }
 
@@ -99,7 +100,7 @@ header {
     position: static;
     width: 60%;
     height: 360px;
-    background-color: pink;
+    background-color:lightskyblue;
     margin: 100px auto;
  
 }
