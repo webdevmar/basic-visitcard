@@ -4,6 +4,7 @@
 /*Menu*/
 * {
   box-sizing: border-box;
+  font-family: 'Julius Sans One', sans-serif, arial;
 }
 
 .menu {
@@ -54,14 +55,12 @@ header {
   height: 360px;
   background-color:lightskyblue;
   margin: 100px auto;
-  
+  background-image:url(img/ocean.jpg);
+  background-size: fit to div;
 }
-
-
-background-photo {
-  mix-blend-mode: lighten;
-}
-
+ .ocean {
+   width: 100%;
+ }
 /*About me*/
 
 .aboutme {
@@ -104,6 +103,4 @@ background-photo {
 footer {
  text-align: center;
 }
-
-
 
