@@ -2,6 +2,9 @@
 /*font-family: 'Julius Sans One', sans-serif;*/
 
 /*Menu*/
+* {
+  box-sizing: border-box;
+}
 
 .menu {
   display: inline-block;
@@ -47,56 +50,59 @@ text-decoration: none;
 /*Header*/
 
 header {
-  display: block;
-  position: static;
   width: 60%;
   height: 360px;
   background-color:lightskyblue;
   margin: 100px auto;
+  
 }
 
+
 background-photo {
-  position: absolute;
-  width: 1440px;
-  height: 585px;
-  left: 0px;
-  top: 95px;
   mix-blend-mode: lighten;
 }
 
 /*About me*/
 
 .aboutme {
-  display: block;
-  position: absolute;
   width: 60%;
   height: 360px;
-  background-color: yellow;
+  background-color: lightskyblue;
   margin: 100px auto;
+
 }
 
 /*Skills*/
 
 .skills {
- 
+  width: 60%;
+  height: 360px;
+  background-color: lightskyblue;
+  margin: 100px auto;
 }
 
 /*Portfolio*/
 
 .portfolio {
- 
+  width: 60%;
+  height: 360px;
+  background-color: lightskyblue;
+  margin: 100px auto;
 }
 
 /*Contact*/
 
 .contact {
-
+  width: 60%;
+  height: 360px;
+  background-color:lightskyblue;
+  margin: 100px auto;
 }
 
 /*Footer*/
 
 footer {
- 
+ text-align: center;
 }
 
 
