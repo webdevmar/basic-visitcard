@@ -11,6 +11,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
+  
 }
 
 .menu {
@@ -21,6 +22,7 @@ body {
   background-color: lightsteelblue;
   left: 0;
   top: 0;
+  z-index: 2;
 }
 
 ul {
@@ -56,14 +58,28 @@ text-decoration: none;
 header {
 position: relative;
 width: 60%;
-height: 50vh;
+height: 18vh;
 margin: 16vh auto 8vh auto;
 }
 
 h1, h2 {
-  
+  text-align: center;
 }
+#foto {
+  width: 100%;
+  height: auto;
+  margin: 40% 20%;
+}
+personal-text  {
+  width: 100%;
+  height: auto;
+  margin: 30% 20%;
+  text-align: center;
 
+}
+.welcome {
+ 
+}
 /*About me*/
 
 .aboutme {
@@ -99,9 +115,30 @@ h1, h2 {
 
 .contact {
   width: 60%;
-  height: 50vh;
-  background-color: rgba(176, 196, 222, 0.5);
+  height: 30vh;
+  /*background-color: rgba(176, 196, 222, 0.5);*/
   margin: 8vh auto;
+}
+
+/*Social-media*/
+
+.social-icon {
+  display: border-box;
+  color: black;
+  font-size: 200%;
+  margin: 7px;
+  transition: 0.4s;
+  
+}
+ .links p {
+   text-align: center;
+ }
+
+ .links {
+
+ }
+.social-icon:hover {
+  color: #054C87;
 }
 
 /*Footer*/
