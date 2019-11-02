@@ -5,13 +5,14 @@
 * {
   font-family: 'Julius Sans One', sans-serif, arial;
   font-weight: bolder;
+  box-sizing: border-box;
 }
+
 body {
   background-image: url('https://i.imgur.com/qNtBDRP.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  
 }
 
 .menu {
@@ -64,17 +65,55 @@ margin: 16vh auto 8vh auto;
 
 h1, h2 {
   text-align: center;
+  font-weight: bolder;
+  
+   
+}
+span {
+  font-size: 1.5em;
 }
 #foto {
   width: 100%;
   height: auto;
   margin: 40% 20%;
 }
-personal-text  {
+.portfolio img {
   width: 100%;
   height: auto;
-  margin: 30% 20%;
+  display: flex;
+  align-items:center;
+  margin: 40% auto;
+  border: 2px groove;
+  border-radius: 25px;
+  border-color: lightslategrey;
+  
+}
+/*Animacja jpg*/
+
+.portfolio img {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+   -ms-transition: all 0.5s ease;
+       transition: all 0.5s ease;
+}
+ 
+.portfolio img:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.personal-text  {
+  width: 100%;
+  height: auto;
   text-align: center;
+  display: flex;
+  margin: 30% 20%;
+  
 
 }
 .welcome {
@@ -89,6 +128,7 @@ personal-text  {
   background-color: rgba(176, 196, 222, 0.5);
   margin: 8vh auto;
   
+  
  
 
 }
@@ -99,9 +139,15 @@ personal-text  {
   width: 60%;
   height: 50vh;
   background-color: rgba(176, 196, 222, 0.5);
-  margin: 8vh auto;
+  margin: auto;
+  text-align: center;
+  align-items: center;
 }
 
+.skills h3 {
+  font-weight: bolder;
+  font-size: 1.5em;
+}
 /*Portfolio*/
 
 .portfolio {
@@ -129,14 +175,22 @@ personal-text  {
   font-size: 200%;
   margin: 7px;
   transition: 0.4s;
+  display: flex;
+  align-items: center;
+  margin: auto;
   
 }
- .links p {
+ .links h3 {
    text-align: center;
+   font-weight: bolder;
+   font-size: 1.5em;
+
+   
  }
 
  .links {
-
+ 
+  align-items:center;
  }
 .social-icon:hover {
   color: #054C87;
