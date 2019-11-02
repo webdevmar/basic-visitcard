@@ -1,7 +1,7 @@
 
 /*font-family: 'Julius Sans One', sans-serif;*/
 
-/*Menu*/
+
 * {
   font-family: 'Julius Sans One', sans-serif, arial;
   font-weight: bolder;
@@ -53,7 +53,6 @@ color: gray;
 text-decoration: none;
 }
 
-
 /*Header*/
 
 header {
@@ -65,29 +64,37 @@ margin: 16vh auto 8vh auto;
 
 h1, h2 {
   text-align: center;
-  font-weight: bolder;
-  
-   
+  font-weight: bolder;   
 }
+
 span {
   font-size: 1.5em;
 }
+
 #foto {
   width: 100%;
   height: auto;
   margin: 40% 20%;
 }
+
+#foto:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+
 .portfolio img {
   width: 100%;
   height: auto;
   display: flex;
   align-items:center;
   margin: 40% auto;
-  border: 2px groove;
-  border-radius: 25px;
+  border-radius: 5%;
   border-color: lightslategrey;
-  
+  -webkit-box-shadow: 5px 5px 5px rgb(83, 78, 95);
+  box-shadow: 5px 5px 5px rgb(83, 78, 95);  
+  overflow: hidden;
 }
+
 /*Animacja jpg*/
 
 .portfolio img {
@@ -113,12 +120,8 @@ span {
   text-align: center;
   display: flex;
   margin: 30% 20%;
-  
+}
 
-}
-.welcome {
- 
-}
 /*About me*/
 
 .aboutme {
@@ -127,10 +130,6 @@ span {
   height: 50vh;
   background-color: rgba(176, 196, 222, 0.5);
   margin: 8vh auto;
-  
-  
- 
-
 }
 
 /*Skills*/
@@ -148,6 +147,7 @@ span {
   font-weight: bolder;
   font-size: 1.5em;
 }
+
 /*Portfolio*/
 
 .portfolio {
@@ -156,7 +156,6 @@ span {
   background-color: rgba(176, 196, 222, 0.5);
   margin: 8vh auto;
 }
-
 
 /*Contact*/
 
@@ -177,21 +176,19 @@ span {
   transition: 0.4s;
   display: flex;
   align-items: center;
-  margin: auto;
-  
+  margin: auto;  
 }
+
  .links h3 {
    text-align: center;
    font-weight: bolder;
-   font-size: 1.5em;
-
-   
+   font-size: 1.5em; 
  }
 
  .links {
- 
   align-items:center;
  }
+
 .social-icon:hover {
   color: #054C87;
 }
