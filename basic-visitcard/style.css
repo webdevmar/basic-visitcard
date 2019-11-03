@@ -1,7 +1,6 @@
 
 /*font-family: 'Julius Sans One', sans-serif;*/
 
-
 * {
   font-family: 'Julius Sans One', sans-serif, arial;
   font-weight: bolder;
@@ -27,39 +26,38 @@ body {
 }
 
 ul {
-list-style-type: none;
-padding: 0 30% 0 0;
-/*padding: 0;*/
-float: right;
+ list-style-type: none;
+ padding: 0 30% 0 0;
+ float: right;
 }
 
 li {
-float: left;
+ float: left;
 }
 
 li a {
-display: block;
-color:black;
-text-align: center;
-padding: 2.5vh 2.5vh;
-text-decoration: none;
-top: 0;
+ display: block;
+ color:black;
+ text-align: center;
+ padding: 2.5vh 2.5vh;
+ text-decoration: none;
+ top: 0;
 }
 
 /* Change the link color on hover */
 
 li a:hover {
-color: gray;
-text-decoration: none;
+ color: gray;
+ text-decoration: none;
 }
 
-/*Header*/
+/*Header*/ 
 
 header {
-position: relative;
-width: 60%;
-height: 18vh;
-margin: 16vh auto 8vh auto;
+ position: relative;
+ width: 60%;
+ height: 18vh;
+ margin: 16vh auto 8vh auto;
 }
 
 h1, h2 {
@@ -95,7 +93,7 @@ span {
   overflow: hidden;
 }
 
-/*Animacja jpg*/
+/*Animation jpg*/
 
 .portfolio img {
   -webkit-transition: all 0.5s ease;
