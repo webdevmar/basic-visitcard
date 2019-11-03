@@ -19,7 +19,7 @@ body {
   position: fixed;
   width: 100%;
   height: 8vh;
-  background-color: lightsteelblue;
+  background-color: rgb(57, 61, 63);
   left: 0;
   top: 0;
   z-index: 2;
@@ -37,7 +37,7 @@ li {
 
 li a {
  display: block;
- color:black;
+ color:rgb(222, 228, 240);
  text-align: center;
  padding: 2.5vh 2.5vh;
  text-decoration: none;
@@ -139,13 +139,23 @@ span {
   margin: auto;
   text-align: center;
   align-items: center;
+  padding: 2%;
 }
 
 .skills h3 {
   font-weight: bolder;
   font-size: 1.5em;
+  padding: 10% 10%;
 }
+ .skills p {
+   padding: auto 20%;
+   font-size: 1rem;
+ }
 
+ #skills {
+   margin: 10%;
+ }
+ 
 /*Portfolio*/
 
 .portfolio {
